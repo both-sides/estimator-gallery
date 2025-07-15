@@ -330,3 +330,9 @@ ignore_files = []
 # zip_media_format = 'resized'  # 'resized' or 'orig'
 # zip_skip_if_exists = False # Skip archive generation if archive is
 # already present. Warning: new photos in an album won't be added to archive
+
+orig_link = True # keep and link full‑res 
+img_size = None # don’t resize the “big” image
+thumbnail_size = (350,350) # only thumbnails shrink
+
+
